@@ -111,6 +111,19 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+    for loan_amount in qualifying_loans:
+        if True:
+            qualifying_loans.append(qualifying_loans)
+    print(qualifying_loans)
+
+header = ["bank_data", "credit_score", "debt", "income", "loan", "home_value"]
+
+csvpath = Path("qualying_loans")
+
+
+
+# csv path = ./data/daily_rate_sheet.csv
+
 
 def run():
     """The main function for running the script."""
@@ -130,5 +143,8 @@ def run():
     save_qualifying_loans(qualifying_loans)
 
 
+
 if __name__ == "__main__":
     fire.Fire(run)
+
+print("Saving to csv file")
